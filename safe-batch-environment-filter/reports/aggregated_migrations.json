@@ -1,0 +1,91 @@
+{
+  "pluginName": "safe-batch-environment-filter",
+  "pluginRepository": "https://github.com/jenkinsci/safe-batch-environment-filter-plugin.git",
+  "migrations": [
+    {
+      "pluginVersion": "0.13.v1d2eb_d4291f5",
+      "jenkinsBaseline": "",
+      "targetBaseline": "2.492",
+      "effectiveBaseline": "2.479",
+      "jenkinsVersion": "2.479.3",
+      "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+      "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+      "tags": [
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+      "migrationStatus": "success",
+      "pullRequestUrl": "",
+      "pullRequestStatus": "",
+      "dryRun": false,
+      "additions": 9,
+      "deletions": 4,
+      "changedFiles": 2,
+      "key": "2025-08-27T12-37-22.json",
+      "path": "metadata-plugin-modernizer\\safe-batch-environment-filter\\modernization-metadata",
+      "timestamp": "2025-08-27T12-37-22"
+    },
+    {
+      "pluginVersion": "0.13.v1d2eb_d4291f5",
+      "jenkinsBaseline": "",
+      "targetBaseline": "2.492",
+      "effectiveBaseline": "2.492",
+      "jenkinsVersion": "2.492.3",
+      "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+      "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+      "tags": [
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/safe-batch-environment-filter-plugin/pull/11",
+      "pullRequestStatus": "closed",
+      "dryRun": false,
+      "additions": 9,
+      "deletions": 4,
+      "changedFiles": 2,
+      "key": "2025-08-23T16-08-02.json",
+      "path": "metadata-plugin-modernizer\\safe-batch-environment-filter\\modernization-metadata",
+      "checkRuns": {
+        "Jenkins": null,
+        "Jenkins Security Scan": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "77d19b73525fdc4f220d7d7a566dc18302fbeebc",
+      "timestamp": "2025-08-23T16-08-02"
+    },
+    {
+      "pluginVersion": "0.1",
+      "jenkinsBaseline": "",
+      "targetBaseline": "2.249",
+      "effectiveBaseline": "2.249",
+      "jenkinsVersion": "2.249.1",
+      "migrationName": "Setup the Jenkinsfile",
+      "migrationDescription": "Add a missing Jenkinsfile to the Jenkins plugin.",
+      "tags": [
+        "skip-verification",
+        "chore"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/safe-batch-environment-filter-plugin/pull/3",
+      "pullRequestStatus": "closed",
+      "dryRun": false,
+      "additions": 12,
+      "deletions": 0,
+      "changedFiles": 1,
+      "key": "2025-07-22T13-08-39.json",
+      "path": "metadata-plugin-modernizer/safe-batch-environment-filter/modernization-metadata",
+      "checkRuns": {
+        "Jenkins Security Scan": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "77d19b73525fdc4f220d7d7a566dc18302fbeebc",
+      "timestamp": "2025-07-22T13-08-39"
+    }
+  ]
+}

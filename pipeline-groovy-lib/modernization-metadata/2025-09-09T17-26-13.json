@@ -1,0 +1,34 @@
+{
+  "pluginName": "pipeline-groovy-lib",
+  "pluginRepository": "https://github.com/jenkinsci/pipeline-groovy-lib-plugin.git",
+  "pluginVersion": "752.vdddedf804e72",
+  "jenkinsBaseline": "2.504",
+  "targetBaseline": "2.504",
+  "effectiveBaseline": "2.504",
+  "jenkinsVersion": "2.504.1",
+  "migrationName": "Migrate Commons Lang from 2 to 3 and StringEscapeUtils to Commons Text",
+  "migrationDescription": "Migrate Commons Lang from 2 to 3 and StringEscapeUtils to Commons Text.",
+  "tags": [
+    "migration",
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/pipeline-groovy-lib-plugin/pull/195",
+  "pullRequestStatus": "closed",
+  "dryRun": false,
+  "additions": 7,
+  "deletions": 3,
+  "changedFiles": 4,
+  "key": "2025-09-09T17-26-13.json",
+  "path": "metadata-plugin-modernizer/pipeline-groovy-lib/modernization-metadata",
+  "checkRuns": {
+    "Jenkins": "failure",
+    "Jenkins Security Scan": "success",
+    "Tests / linux-21 / Build (linux-21)": "failure",
+    "security-scan / scan": "success"
+  },
+  "checkRunsSummary": "failure",
+  "defaultBranch": "master",
+  "defaultBranchLatestCommitSha": "90eaa9be45a01d5db59653f1e5087c1fca5caa42"
+}

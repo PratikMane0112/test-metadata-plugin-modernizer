@@ -1,0 +1,90 @@
+{
+  "pluginName": "probely-security",
+  "pluginRepository": "https://github.com/jenkinsci/probely-security-plugin.git",
+  "migrations": [
+    {
+      "pluginVersion": "1.2.3",
+      "jenkinsBaseline": "2.479",
+      "targetBaseline": "2.479",
+      "effectiveBaseline": "2.479",
+      "jenkinsVersion": "2.479.3",
+      "migrationName": "Add CODEOWNERS file",
+      "migrationDescription": "Adds a CODEOWNERS file to a Jenkins plugin.",
+      "tags": [
+        "skip-verification",
+        "chore"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.AddCodeOwner",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/probely-security-plugin/pull/12",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 1,
+      "deletions": 0,
+      "changedFiles": 1,
+      "key": "2025-09-02T15-43-31.json",
+      "path": "metadata-plugin-modernizer/probely-security/modernization-metadata",
+      "checkRuns": {
+        "Jenkins": "failure",
+        "Tests / linux-25 / Build (linux-25)": "failure"
+      },
+      "checkRunsSummary": "failure",
+      "defaultBranch": "master",
+      "defaultBranchLatestCommitSha": "aeb9286c40393eb9651edfaf4c4e7787f31f6b2a",
+      "timestamp": "2025-09-02T15-43-31"
+    },
+    {
+      "pluginVersion": "1.2.3",
+      "jenkinsBaseline": "2.479",
+      "targetBaseline": "2.479",
+      "effectiveBaseline": "2.479",
+      "jenkinsVersion": "2.479.3",
+      "migrationName": "Migrate Commons Lang from 2 to 3 and StringEscapeUtils to Commons Text",
+      "migrationDescription": "Migrate Commons Lang from 2 to 3 and StringEscapeUtils to Commons Text.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/probely-security-plugin/pull/13",
+      "pullRequestStatus": "merged",
+      "dryRun": false,
+      "additions": 5,
+      "deletions": 1,
+      "changedFiles": 2,
+      "key": "2025-08-18T13-42-12.json",
+      "path": "metadata-plugin-modernizer/probely-security/modernization-metadata",
+      "checkRuns": {
+        "Jenkins": null
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "master",
+      "defaultBranchLatestCommitSha": "aeb9286c40393eb9651edfaf4c4e7787f31f6b2a",
+      "timestamp": "2025-08-18T13-42-12"
+    },
+    {
+      "pluginVersion": "1.2.3",
+      "jenkinsBaseline": "2.479",
+      "targetBaseline": "2.479",
+      "effectiveBaseline": "2.479",
+      "jenkinsVersion": "2.479.3",
+      "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+      "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+      "tags": [
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+      "migrationStatus": "fail",
+      "pullRequestUrl": "",
+      "pullRequestStatus": "",
+      "dryRun": false,
+      "additions": 0,
+      "deletions": 0,
+      "changedFiles": 0,
+      "key": "2025-08-12T18-39-24.json",
+      "path": "metadata-plugin-modernizer/probely-security/modernization-metadata",
+      "timestamp": "2025-08-12T18-39-24"
+    }
+  ]
+}
